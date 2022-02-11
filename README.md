@@ -7,9 +7,9 @@ IMPORTANTE: No se pudo obtener la matriz de correlacion, ya que esta tardaba mas
 
 Se adjunta el modelo obtenido en el archivo model.pkl
 
-0.5357291233901121
-Matriz de confusion /n [[1655 1086]
- [1149  924]]
+Accuracy Score: 0.5357291233901121
+
+Matriz de confusion
 
                  precision    recall    f1-score      support
 
