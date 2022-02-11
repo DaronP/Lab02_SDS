@@ -28,6 +28,11 @@ feature_matrix_train, feature_matrix_test, target_train, target_test = model_sel
 clf = MultinomialNB()
 clf = clf.fit(feature_matrix_train, target_train)
 
+#Guardando modelo
+clf_pkl_model = open('model_tf_idf.pkl', 'wb')
+pickle.dump(clf, clf_pkl_model)
+clf_pkl_model.close()
+
 print(feature_matrix_train.count())
 
 print(feature_matrix_test.count())
